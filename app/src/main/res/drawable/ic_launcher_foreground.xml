@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sparkles of joy around character -->
+    <!-- Top-Left Sparkle -->
+    <path
+        android:fillColor="#FFB3BA"
+        android:pathData="M30,30 L31.5,33 L34.5,34.5 L31.5,36 L30,39 L28.5,36 L25.5,34.5 L28.5,33 Z" />
+    <!-- Top-Right Sparkle -->
+    <path
+        android:fillColor="#FFDFBA"
+        android:pathData="M78,28 L79.5,31 L82.5,32.5 L79.5,34 L78,37 L76.5,34 L73.5,32.5 L76.5,31 Z" />
+    <!-- Bottom-Right Tiny Heart -->
+    <path
+        android:fillColor="#FF8DA1"
+        android:pathData="M80,72 C80,69 76,67 74,70 C72,67 68,69 68,72 C68,76 74,80 74,80 C74,80 80,76 80,72 Z" />
+
+    <!-- Cute Chubby Bear / Bunny Ears -->
+    <!-- Left Outer Ear -->
+    <path
+        android:pathData="M37,42 C34,34 37,24 44,26 C51,28 47,38 43,44 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFC1CC"
+        android:strokeLineJoin="round" />
+    <!-- Left Inner Ear Pink -->
+    <path
+        android:pathData="M38.5,40 C36.5,34 38.5,27 43,28.5 C47.5,30 45,37 42.5,41.5 Z"
+        android:fillColor="#FFB6C1" />
+
+    <!-- Right Outer Ear -->
+    <path
+        android:pathData="M71,42 C74,34 71,24 64,26 C57,28 61,38 65,44 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFC1CC"
+        android:strokeLineJoin="round" />
+    <!-- Right Inner Ear Pink -->
+    <path
+        android:pathData="M69.5,40 C71.5,34 69.5,27 65,28.5 C60.5,30 63,37 65.5,41.5 Z"
+        android:fillColor="#FFB6C1" />
+
+    <!-- Chubby Head -->
+    <path
+        android:pathData="M54,34 C40,34 31,43 31,56 C31,69 41,77 54,77 C67,77 77,69 77,56 C77,43 68,34 54,34 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFC1CC" />
+
+    <!-- Rosy Blush Cheeks (Cute!) -->
+    <path
+        android:pathData="M38,62 C35,62 33,60 33,58 C33,56 35,54 38,54 C41,54 43,56 43,58 C43,60 41,62 38,62 Z"
+        android:fillColor="#FF9AA2" />
+    <path
+        android:pathData="M70,62 C67,62 65,60 65,58 C65,56 67,54 70,54 C73,54 75,56 75,58 C75,60 73,62 70,62 Z"
+        android:fillColor="#FF9AA2" />
+
+    <!-- Big Kawaii Eyes with Sparkle Highlights -->
+    <!-- Left Eye -->
+    <path
+        android:pathData="M43,51 C41,51 39.5,52.5 39.5,54.5 C39.5,56.5 41,58 43,58 C45,58 46.5,56.5 46.5,54.5 C46.5,52.5 45,51 43,51 Z"
+        android:fillColor="#3D3035" />
+    <path
+        android:pathData="M42,52.5 C41.3,52.5 40.8,53 40.8,53.8 C40.8,54.5 41.3,55 42,55 C42.7,55 43.2,54.5 43.2,53.8 C43.2,53 42.7,52.5 42,52.5 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Right Eye -->
+    <path
+        android:pathData="M65,51 C63,51 61.5,52.5 61.5,54.5 C61.5,56.5 63,58 65,58 C67,58 68.5,56.5 68.5,54.5 C68.5,52.5 67,51 65,51 Z"
+        android:fillColor="#3D3035" />
+    <path
+        android:pathData="M64,52.5 C63.3,52.5 62.8,53 62.8,53.8 C62.8,54.5 63.3,55 64,55 C64.7,55 65.2,54.5 65.2,53.8 C65.2,53 64.7,52.5 64,52.5 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Sweet Tiny Heart Nose -->
+    <path
+        android:pathData="M54,58 C55,56.8 56.5,57 56.5,58 C56.5,59.2 54,60.8 54,60.8 C54,60.8 51.5,59.2 51.5,58 C51.5,57 53,56.8 54,58 Z"
+        android:fillColor="#FF6B81" />
+
+    <!-- Cute Smiling W-shaped Mouth (Kawaii cat/bunny style) -->
+    <path
+        android:pathData="M51,62 C52,63.5 53.5,63.5 54,62 C54.5,63.5 56,63.5 57,62"
+        android:strokeWidth="2"
+        android:strokeColor="#3D3035"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Cute Little Paws Holding a Golden Star -->
+    <path
+        android:pathData="M43,72 C41,72 40,75 42,77 C44,79 48,78 48,75 C48,73 45,72 43,72 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeColor="#FFC1CC" />
+    <path
+        android:pathData="M65,72 C67,72 68,75 66,77 C64,79 60,78 60,75 C60,73 63,72 65,72 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeColor="#FFC1CC" />
+    <!-- Golden Star in paws -->
+    <path
+        android:pathData="M54,69 L55.5,73.5 L60,73.5 L56.5,76 L58,80.5 L54,77.8 L50,80.5 L51.5,76 L48,73.5 L52.5,73.5 Z"
+        android:fillColor="#FFD166"
+        android:strokeWidth="1"
+        android:strokeColor="#F4A261" />
+
+</vector>

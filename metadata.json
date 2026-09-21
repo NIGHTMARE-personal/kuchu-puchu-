@@ -1,0 +1,6 @@
+{
+  "name": "Kuchu Puchu",
+  "description": "Sweet and cute AI action companion that executes voice commands, smart notes, offline LLMs, and multi-cloud models (Gemini, ChatGPT/OpenAI, Claude).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

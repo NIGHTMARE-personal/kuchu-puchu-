@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Nova 語音助理</string>
+    <string name="subtitle_action_agent">真實裝置操作執行智慧體</string>
+    <string name="nav_assistant">語音助理</string>
+    <string name="nav_models">模型管理</string>
+    <string name="nav_settings">設定</string>
+
+    <string name="status_tap_to_listen">輕觸麥克風以發出操作指令</string>
+    <string name="status_listening">正在聆聽指令…</string>
+    <string name="status_processing">正在解析指令…</string>
+    <string name="status_executing">正在執行裝置操作…</string>
+    <string name="status_ready">已準備就緒</string>
+    <string name="live_transcript">即時語音轉錄</string>
+    <string name="listening_voice">正在聆聽您的聲音…</string>
+    <string name="tap_to_finish">輕觸以完成並執行</string>
+    <string name="push_to_talk">按住說話</string>
+    <string name="zero_conversational_chat">直接執行操作，無多餘閒聊</string>
+    <string name="fast_formulaic_commands">零延遲快捷指令 (0ms LLM)</string>
+    <string name="or_type_command">或鍵入指令：</string>
+    <string name="command_placeholder">例如：打電話給媽媽、在YouTube播放音樂</string>
+    <string name="command_history">歷史指令</string>
+    <string name="btn_clear">清除</string>
+    <string name="btn_execute">立即執行</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_save">儲存</string>
+    <string name="btn_download">下載</string>
+    <string name="btn_delete">刪除</string>
+    <string name="btn_active">使用中</string>
+    <string name="btn_activate">設為預設</string>
+    <string name="btn_send">傳送</string>
+
+    <string name="engine_offline_local">離線模式 (本機執行)</string>
+    <string name="engine_online_prefix">線上模式</string>
+    <string name="offline_ai_models">端側大型語言模型 (LLM)</string>
+    <string name="offline_stt_language_packs">離線語音識別 (STT) 語言包</string>
+    <string name="storage_diagnostic">儲存空間與裝置診斷</string>
+    <string name="free_storage">可用空間</string>
+    <string name="used_by_models">模型已佔用</string>
+
+    <string name="language_settings_title">助理語言</string>
+    <string name="language_settings_desc">選擇用於語音辨識、系統提示詞與介面的語言</string>
+    <string name="lang_system_default">跟隨系統預設</string>
+    <string name="lang_en">英語 (English)</string>
+    <string name="lang_hi">印地語 (हिन्दी)</string>
+    <string name="lang_zh">簡體中文</string>
+    <string name="lang_zh_tw">繁體中文</string>
+    <string name="lang_ja">日語 (日本語)</string>
+    <string name="lang_ko">韓語 (한국어)</string>
+    <string name="offline_stt_info">下載離線語音識別語言包，即可在完全無網路環境下精準識別語音指令。</string>
+
+    <string name="confirm_action_title">確認執行操作</string>
+    <string name="confirm_call_question">撥打電話給 %1$s？</string>
+    <string name="confirm_event_question">新增行事曆行程：%1$s？</string>
+
+    <string name="settings_engine_title">推論引擎設定</string>
+    <string name="settings_online_byok">線上模式 BYOK (雲端模型)</string>
+    <string name="settings_offline_mediapipe">離線本機模式 (MediaPipe Gemma)</string>
+    <string name="settings_api_keys">API 金鑰管理 (Keystore 安全加密)</string>
+    <string name="settings_security_note">金鑰透過 Android Keystore AES-256-GCM 硬體加密儲存，絕不外洩。</string>
+    <string name="settings_auto_call_title">直接自動撥號 (跳過撥號盤)</string>
+    <string name="settings_auto_call_desc">使用 ACTION_CALL 直接發起通話，而非僅開啟撥號程式</string>
+    <string name="settings_fast_router_title">零延遲正規表示式路由引擎</string>
+    <string name="settings_fast_router_desc">對常規格式指令實現 0ms 瞬間直達執行</string>
+    <string name="settings_permissions_title">裝置權限與存取控制</string>
+    <string name="permission_granted">已授權</string>
+    <string name="permission_grant_button">授權</string>
+    <string name="permission_dialog_title">需要系統權限</string>
+    <string name="permission_dialog_confirm">允許授權</string>
+    <string name="permission_dialog_dismiss">關閉</string>
+
+    <string name="stt_pack_hindi">印地語離線語音包</string>
+    <string name="stt_pack_english">英語離線語音包</string>
+    <string name="stt_pack_chinese_hans">普通話離線語音包</string>
+    <string name="stt_pack_chinese_hant">繁體中文離線語音包</string>
+    <string name="stt_pack_japanese">日語離線語音包</string>
+    <string name="stt_pack_korean">韓語離線語音包</string>
+    <string name="stt_pack_desc">離線聲學與語言模型，提供高精度端側語音解析。</string>
+    <string name="no_history_yet">暫無歷史指令。輕觸麥克風即可開始體驗。</string>
+
+    <string name="quick_cmd_open_youtube">開啟 YouTube</string>
+    <string name="quick_cmd_call">打電話給媽媽</string>
+    <string name="quick_cmd_play_youtube">在 YouTube 播放爵士樂</string>
+    <string name="quick_cmd_open_camera">開啟相機</string>
+    <string name="quick_cmd_schedule_sync">安排明天下午3點團隊同步會議</string>
+    <string name="quick_cmd_open_settings">開啟設定</string>
+</resources>

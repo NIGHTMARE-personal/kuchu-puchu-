@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">नोवा असिस्टेंट</string>
+    <string name="subtitle_action_agent">वास्तविक डिवाइस एक्शन निष्पादन एजेंट</string>
+    <string name="nav_assistant">असिस्टेंट</string>
+    <string name="nav_models">मॉडल्स</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <string name="status_tap_to_listen">कमांड देने के लिए माइक पर टैप करें</string>
+    <string name="status_listening">कमांड सुन रहे हैं…</string>
+    <string name="status_processing">कमांड संसाधित की जा रही है…</string>
+    <string name="status_executing">डिवाइस एक्शन निष्पादित हो रहा है…</string>
+    <string name="status_ready">आपकी अगली कमांड के लिए तैयार</string>
+    <string name="live_transcript">लाइव ट्रांसक्रिप्ट</string>
+    <string name="listening_voice">आपकी आवाज़ सुन रहे हैं…</string>
+    <string name="tap_to_finish">समाप्त करने और निष्पादित करने के लिए टैप करें</string>
+    <string name="push_to_talk">बोलने के लिए दबाएं</string>
+    <string name="zero_conversational_chat">बिना किसी अतिरिक्त बातचीत के सीधे एक्शन</string>
+    <string name="fast_formulaic_commands">त्वरित सूत्र कमांड (0ms LLM)</string>
+    <string name="or_type_command">या कमांड टाइप करें:</string>
+    <string name="command_placeholder">उदा. मम्मी को कॉल करो, यूट्यूब पर गाने चलाओ</string>
+    <string name="command_history">कमांड इतिहास</string>
+    <string name="btn_clear">साफ़ करें</string>
+    <string name="btn_execute">निष्पादित करें</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_save">सुरक्षित करें</string>
+    <string name="btn_download">डाउनलोड करें</string>
+    <string name="btn_delete">हटाएं</string>
+    <string name="btn_active">सक्रिय</string>
+    <string name="btn_activate">सक्रिय करें</string>
+    <string name="btn_send">भेजें</string>
+
+    <string name="engine_offline_local">ऑफ़लाइन (लोकल)</string>
+    <string name="engine_online_prefix">ऑनलाइन</string>
+    <string name="offline_ai_models">डिवाइस पर LLM मॉडल्स</string>
+    <string name="offline_stt_language_packs">ऑफ़लाइन वाक् पहचान (STT) भाषा पैक</string>
+    <string name="storage_diagnostic">स्टोरेज एवं डिवाइस विवरण</string>
+    <string name="free_storage">उपलब्ध स्टोरेज</string>
+    <string name="used_by_models">मॉडल्स द्वारा प्रयुक्त</string>
+
+    <string name="language_settings_title">असिस्टेंट भाषा</string>
+    <string name="language_settings_desc">वाक् पहचान, सिस्टम प्रॉम्प्ट और इंटरफ़ेस के लिए भाषा चुनें</string>
+    <string name="lang_system_default">डिवाइस डिफ़ॉल्ट (सिस्टम)</string>
+    <string name="lang_en">अंग्रेज़ी (English)</string>
+    <string name="lang_hi">हिन्दी (Hindi)</string>
+    <string name="lang_zh">चीनी सरलीकृत (中文 - 简体)</string>
+    <string name="lang_zh_tw">चीनी पारंपरिक (中文 - 繁體)</string>
+    <string name="lang_ja">जापानी (日本語)</string>
+    <string name="lang_ko">कोरियाई (한국어)</string>
+    <string name="offline_stt_info">इंटरनेट के बिना सटीक स्थानीय आवाज़ पहचान के लिए ऑफ़लाइन भाषा पैक डाउनलोड करें।</string>
+
+    <string name="confirm_action_title">एक्शन की पुष्टि करें</string>
+    <string name="confirm_call_question">%1$s को कॉल करें?</string>
+    <string name="confirm_event_question">कैलेंडर इवेंट जोड़ें: %1$s?</string>
+
+    <string name="settings_engine_title">इन्फरेंस इंजन</string>
+    <string name="settings_online_byok">ऑनलाइन BYOK (क्लाउड मॉडल्स)</string>
+    <string name="settings_offline_mediapipe">ऑफ़लाइन लोकल (मीडियापाइप जेम्मा)</string>
+    <string name="settings_api_keys">API कुंजी कॉन्फ़िगरेशन (एन्क्रिप्टेड कीस्टोर)</string>
+    <string name="settings_security_note">कुंजियाँ Android कीस्टोर AES-256-GCM द्वारा सुरक्षित हैं। कभी बाहर नहीं भेजी जाती हैं।</string>
+    <string name="settings_auto_call_title">प्रत्यक्ष ऑटो-कॉल (डायलर बायपास)</string>
+    <string name="settings_auto_call_desc">डायलर खोलने के बजाय सीधे ACTION_CALL द्वारा कॉल लगाएं</string>
+    <string name="settings_fast_router_title">शून्य-विलंबता रेगेक्स राउटर</string>
+    <string name="settings_fast_router_desc">0ms गति के लिए सामान्य कमांड्स को तुरंत पहचानें</string>
+    <string name="settings_permissions_title">डिवाइस अनुमतियाँ और पहुंच</string>
+    <string name="permission_granted">स्वीकृत</string>
+    <string name="permission_grant_button">अनुमति दें</string>
+    <string name="permission_dialog_title">अनुमति आवश्यक</string>
+    <string name="permission_dialog_confirm">अनुमति प्रदान करें</string>
+    <string name="permission_dialog_dismiss">खारिज करें</string>
+
+    <string name="stt_pack_hindi">हिन्दी वाक् मॉडल</string>
+    <string name="stt_pack_english">अंग्रेज़ी वाक् मॉडल</string>
+    <string name="stt_pack_chinese_hans">चीनी (मंदारिन) वाक् मॉडल</string>
+    <string name="stt_pack_chinese_hant">चीनी (पारंपरिक) वाक् मॉडल</string>
+    <string name="stt_pack_japanese">जापानी वाक् मॉडल</string>
+    <string name="stt_pack_korean">कोरियाई वाक् मॉडल</string>
+    <string name="stt_pack_desc">उच्च सटीकता वाली स्थानीय वाक् पहचान के लिए ऑफ़लाइन मॉडल।</string>
+    <string name="no_history_yet">अभी कोई कमांड नहीं है। शुरू करने के लिए माइक दबाएं।</string>
+
+    <string name="quick_cmd_open_youtube">यूट्यूब खोलो</string>
+    <string name="quick_cmd_call">मम्मी को कॉल करो</string>
+    <string name="quick_cmd_play_youtube">यूट्यूब पर गाने चलाओ</string>
+    <string name="quick_cmd_open_camera">कैमरा खोलो</string>
+    <string name="quick_cmd_schedule_sync">कल दोपहर 3 बजे मीटिंग शेड्यूल करो</string>
+    <string name="quick_cmd_open_settings">सेटिंग्स खोलो</string>
+</resources>

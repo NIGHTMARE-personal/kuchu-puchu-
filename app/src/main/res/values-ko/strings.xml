@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Nova 어시스턴트</string>
+    <string name="subtitle_action_agent">실기기 디바이스 액션 실행 에이전트</string>
+    <string name="nav_assistant">어시스턴트</string>
+    <string name="nav_models">모델 관리</string>
+    <string name="nav_settings">설정</string>
+
+    <string name="status_tap_to_listen">마이크를 탭하여 기기 명령을 말하세요</string>
+    <string name="status_listening">명령을 듣고 있습니다…</string>
+    <string name="status_processing">명령을 분석하고 있습니다…</string>
+    <string name="status_executing">디바이스 작업을 실행하고 있습니다…</string>
+    <string name="status_ready">새로운 명령을 기다리고 있습니다</string>
+    <string name="live_transcript">실시간 음성 변환</string>
+    <string name="listening_voice">목소리를 인식하는 중…</string>
+    <string name="tap_to_finish">완료 및 즉시 실행</string>
+    <string name="push_to_talk">눌러서 말하기</string>
+    <string name="zero_conversational_chat">불필요한 대화 없이 즉각적인 명령 실행</string>
+    <string name="fast_formulaic_commands">즉각적인 정형화 명령 (0ms LLM)</string>
+    <string name="or_type_command">또는 명령 입력：</string>
+    <string name="command_placeholder">예: 엄마에게 전화해줘, 유튜브에서 재즈 틀어줘</string>
+    <string name="command_history">명령 내역</string>
+    <string name="btn_clear">지우기</string>
+    <string name="btn_execute">실행</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_save">저장</string>
+    <string name="btn_download">다운로드</string>
+    <string name="btn_delete">삭제</string>
+    <string name="btn_active">사용 중</string>
+    <string name="btn_activate">활성화</string>
+    <string name="btn_send">보내기</string>
+
+    <string name="engine_offline_local">오프라인 (로컬 동작)</string>
+    <string name="engine_online_prefix">온라인</string>
+    <string name="offline_ai_models">온디바이스 LLM</string>
+    <string name="offline_stt_language_packs">오프라인 음성인식 (STT) 언어팩</string>
+    <string name="storage_diagnostic">저장공간 및 디바이스 진단</string>
+    <string name="free_storage">남은 저장공간</string>
+    <string name="used_by_models">모델 사용량</string>
+
+    <string name="language_settings_title">어시스턴트 언어</string>
+    <string name="language_settings_desc">음성 인식, 시스템 프롬프트 및 사용자 인터페이스 언어 선택</string>
+    <string name="lang_system_default">기기 기본값 (시스템)</string>
+    <string name="lang_en">영어 (English)</string>
+    <string name="lang_hi">힌디어 (हिन्दी)</string>
+    <string name="lang_zh">중국어 간체 (中文 - 简体)</string>
+    <string name="lang_zh_tw">중국어 번체 (中文 - 繁體)</string>
+    <string name="lang_ja">일본어 (日本語)</string>
+    <string name="lang_ko">한국어</string>
+    <string name="offline_stt_info">오프라인 음성 언어팩을 다운로드하면 네트워크 연결 없이도 높은 정확도로 음성을 인식합니다.</string>
+
+    <string name="confirm_action_title">작업 확인</string>
+    <string name="confirm_call_question">%1$s 님에게 전화를 걸까요?</string>
+    <string name="confirm_event_question">캘린더 일정 추가: %1$s?</string>
+
+    <string name="settings_engine_title">추론 엔진</string>
+    <string name="settings_online_byok">온라인 BYOK (클라우드 모델)</string>
+    <string name="settings_offline_mediapipe">오프라인 로컬 (MediaPipe Gemma)</string>
+    <string name="settings_api_keys">API 키 설정 (Keystore 보안 암호화)</string>
+    <string name="settings_security_note">API 키는 Android Keystore AES-256-GCM으로 안전하게 암호화되어 보관됩니다.</string>
+    <string name="settings_auto_call_title">직접 자동 전화걸기 (다이얼러 건너뛰기)</string>
+    <string name="settings_auto_call_desc">다이얼 화면을 띄우지 않고 ACTION_CALL로 바로 통화 연결</string>
+    <string name="settings_fast_router_title">초저지연 정규식 라우터</string>
+    <string name="settings_fast_router_desc">정형화된 기본 명령을 감지하여 0ms로 즉시 실행</string>
+    <string name="settings_permissions_title">디바이스 권한 및 접근성</string>
+    <string name="permission_granted">허용됨</string>
+    <string name="permission_grant_button">허용</string>
+    <string name="permission_dialog_title">권한 필요</string>
+    <string name="permission_dialog_confirm">권한 허용하기</string>
+    <string name="permission_dialog_dismiss">닫기</string>
+
+    <string name="stt_pack_hindi">힌디어 음성 모델</string>
+    <string name="stt_pack_english">영어 음성 모델</string>
+    <string name="stt_pack_chinese_hans">중국어 (표준어) 음성 모델</string>
+    <string name="stt_pack_chinese_hant">중국어 (번체) 음성 모델</string>
+    <string name="stt_pack_japanese">일본어 음성 모델</string>
+    <string name="stt_pack_korean">한국어 음성 모델</string>
+    <string name="stt_pack_desc">오프라인 고정밀 음성 인식을 위한 온디바이스 음성 모델팩입니다.</string>
+    <string name="no_history_yet">명령 내역이 없습니다. 마이크를 탭하여 시작하세요.</string>
+
+    <string name="quick_cmd_open_youtube">유튜브 열기</string>
+    <string name="quick_cmd_call">엄마에게 전화</string>
+    <string name="quick_cmd_play_youtube">유튜브에서 재즈 음악 틀어줘</string>
+    <string name="quick_cmd_open_camera">카메라 실행</string>
+    <string name="quick_cmd_schedule_sync">내일 오후 3시 팀 싱크 미팅 일정 추가</string>
+    <string name="quick_cmd_open_settings">설정 열기</string>
+</resources>
