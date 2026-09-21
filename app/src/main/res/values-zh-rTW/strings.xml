@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nova 語音助理</string>
+    <string name="app_name">Kuchu Puchu</string>
     <string name="subtitle_action_agent">真實裝置操作執行智慧體</string>
     <string name="nav_assistant">語音助理</string>
     <string name="nav_models">模型管理</string>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nova アシスタント</string>
+    <string name="app_name">Kuchu Puchu</string>
     <string name="subtitle_action_agent">実機デバイス操作実行エージェント</string>
     <string name="nav_assistant">アシスタント</string>
     <string name="nav_models">モデル管理</string>
